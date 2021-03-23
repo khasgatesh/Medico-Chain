@@ -69,3 +69,6 @@ img{
     text-decoration: none;
     color: white;
 }
+.mt-auto{
+    margin-top: 3em;
+}
