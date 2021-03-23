@@ -1,24 +1,5 @@
 img{
     width:70%!important;
-    margin-top: auto;
- }
- .form{
-     display: inline;
- }
- .btn-primary{
-     background-color:#63FFC1;
-     color:white;
-     border: none;
- }
- .navbar-dark{
-     background-color:#63FFC1;
- }
- 
-.container{
-    margin-top: 10em;
-}
-img{
-    width:70%!important;
  }
  .form{
      display: inline;
@@ -30,9 +11,6 @@ img{
  }
  .navbar-dark{
      background-color:#222930;
- }
- .navbar{
-     overflow: hidden;
  }
  
  
@@ -51,47 +29,25 @@ img{
      min-height:400px;
  }
  
- 
-    
-    .footer{
-        background-color: #222930;
-        margin:0px auto;
-        padding: 20px 0px 20px 0px;
-    }
-        
-    
-  .jumbotron{
+ .footer{
+     background-color: #222930;
+     margin:0px auto;
+     padding: 20px 0px 20px 0px;
+     margin-top:1em;
+     color:white;
+ }
+ .jumbotron{
      background-color:#63FFC1 ;
      margin:0px auto;
      padding:50px 20px 50px 20px;
      color:#222930;
+     position: absolute;
+     height: 155px;
+     bottom: 0;
  }
- .address{
-     font-size:70%;
-     margin:0px auto;
-     color:#000;
- }
+ 
  a{
-    text-decoration: none;
-    color: white;
-}
-.mt-auto{
-    margin-top: 3em;
-}
-@media only screen and (device-width: 768px) {
-    .footer{
-        width: 100%;
-    }
-  }
-  
-  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
-    /* For portrait layouts only */
-    .footer{
-        width: 100%;
-        flex-direction: column;
-    }
-  }
-  
-  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-    /* For landscape layouts only */
-  }
+     text-decoration: none;
+     color: white;
+     padding: 1em;
+ }

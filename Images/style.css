@@ -33,6 +33,8 @@ img{
     background-color: #222930;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
+    margin-top:1em;
+    color:white;
 }
 .jumbotron{
     background-color:#63FFC1 ;
