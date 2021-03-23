@@ -51,19 +51,16 @@ img{
      min-height:400px;
  }
  
- .footer{
+ 
     
+    .footer{
         background-color: #222930;
         margin:0px auto;
         padding: 20px 0px 20px 0px;
-       color:white;
-        margin-top:1em;
-        position: relative;
-        width: 100%;
+    }
         
     
- }
- .jumbotron{
+  .jumbotron{
      background-color:#63FFC1 ;
      margin:0px auto;
      padding:50px 20px 50px 20px;
