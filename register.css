@@ -31,6 +31,9 @@ img{
  .navbar-dark{
      background-color:#222930;
  }
+ .navbar{
+     overflow: hidden;
+ }
  
  
    .navbar{
@@ -49,10 +52,16 @@ img{
  }
  
  .footer{
-     background-color: #D1C4E9;
-     margin:0px auto;
-     padding: 20px 0px 20px 0px;
-     margin-top:1em;
+    
+        background-color: #222930;
+        margin:0px auto;
+        padding: 20px 0px 20px 0px;
+       color:white;
+        margin-top:1em;
+        position: relative;
+        width: 100%;
+        
+    
  }
  .jumbotron{
      background-color:#63FFC1 ;
@@ -72,3 +81,20 @@ img{
 .mt-auto{
     margin-top: 3em;
 }
+@media only screen and (device-width: 768px) {
+    .footer{
+        width: 100%;
+    }
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    .footer{
+        width: 100%;
+        flex-direction: column;
+    }
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+  }
