@@ -76,7 +76,7 @@
                       </select>
 
                       <br>
-                      <button class="btn btn-primary justify-content-center" id="submit" type="submit">Submit</button>
+                      <button class="btn btn-primary justify-content-center" id="submit" type="submit" onsubmit="Signup()">Submit</button>
                    </form>
                </div>
            </div>
@@ -120,10 +120,17 @@
         email:document.getElementById('email').value,
         password:document.getElementById('password').value,
         role:document.getElementById('role').value  
-        })
-        
-     
-    })
+      })
+  })
+
+   document.querySelector(".btn").addEventListener('click',redirect);
+
+   function redirect(){
+     location.assign("./index.html")
+   }
+
+
+   
 </script>
  
 </body>

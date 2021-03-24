@@ -65,7 +65,7 @@
                         <input type="password" name="email" class="form-control">
                       </div>
                       <br>
-                      <p><button class="btn btn-primary justify-content-center" onclick="Signup()">Submit</button>&nbsp; <a class="new-user" href="./Register.html">Register With Us</a></p>
+                      <p><button class="btn btn-primary justify-content-center" onsubmit="signin()" >Submit</button>&nbsp; <a class="new-user" href="./Register.html">Register With Us</a></p>
                     
                        
                    </form>
@@ -84,5 +84,12 @@
         </div>
     </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
- </body>
+ <script>
+  document.querySelector(".btn").addEventListener('click',redirect);
+
+  function redirect(){
+    location.assign("./Patient.html")
+  }
+ </script> 
+</body>
 </html>
