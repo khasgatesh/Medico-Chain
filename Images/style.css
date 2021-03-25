@@ -1,3 +1,6 @@
+
+
+
 img{
    width:70%!important;
 }
@@ -55,4 +58,7 @@ a{
 .new-user{
     color:#222930;
     text-decoration: underline;
+}
+#username,#pass{
+      color:red;
 }
