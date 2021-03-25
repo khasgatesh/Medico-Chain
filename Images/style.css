@@ -59,6 +59,9 @@ a{
     color:#222930;
     text-decoration: underline;
 }
-#username,#pass{
+#username{
       color:red;
+}
+#pass{
+    color:red;
 }
