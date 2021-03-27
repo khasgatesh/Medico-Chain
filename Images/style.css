@@ -65,3 +65,7 @@ a{
 #pass{
     color:red;
 }
+#form{
+    border:1px solid #222930;
+    box-shadow: 2px 2px 0 0;
+}

@@ -8,6 +8,7 @@ img{
      background-color:#63FFC1;
      color:white;
      border: none;
+     margin-bottom:10px;
  }
  .navbar-dark{
      background-color:#222930;
@@ -50,4 +51,9 @@ img{
      text-decoration: none;
      color: white;
      padding: 1em;
+ }
+ #form{
+    border:1px solid #222930;
+    box-shadow: 2px 2px 0 0;
+    
  }
